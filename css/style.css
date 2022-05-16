@@ -1,0 +1,400 @@
+:root{
+    --pr-color : #006400;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #808080;
+}
+
+/* Navbar Style */
+.navbar{
+    z-index: 3;
+}
+
+/* Navbar Color */
+.nav-color{
+    background-color: var(--pr-color);
+    transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent{
+    transition: all ease-in-out 0.3s;
+}
+
+*{
+    z-index: 2;
+}
+
+.accsent-img{
+    z-index: 1;
+}
+
+.img-hero{
+    z-index: 1;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+.nav-link.active{
+    font-weight: 700;
+}
+
+/* Hero Section */
+
+#hero{
+    background: linear-gradient(150deg, var(--pr-color), 	#000);
+    height: 100vh;
+    width: 100%;
+}
+
+.video-hero {
+  position: absolute;
+  object-fit: cover;
+  z-index: -2;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.img-hero{
+    height: 100%;
+}
+
+.hero-tagline h1{
+    color: #fff;
+    font-family: 'Crimson Pro';
+    font-weight: 700;
+    margin-bottom: 90px;
+    width: 848px;
+    font-size: 40px;
+}
+
+.button-lg-primary{
+    width: 200px;
+    height: 60px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Crimson Pro';
+}
+
+/* About Section */
+
+#about{
+    background-image: url(../assets/img/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#layanan{
+    padding: 100px 0;
+}
+
+p{
+    font-size: 40px;
+    font-weight: 100;
+    color: #000;
+    font-family: 'Franklin Gothic Medium';
+}
+
+h4{
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'Tourney';
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Tourney';
+    margin-top: 100px;
+}
+
+.sub-tittle{
+    font-size: 18px;
+    color: #000;
+    font-family: 'Tourney';
+}
+
+.card-layanan{
+    width: 560px;
+    height: 560px;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0,05);
+
+    transition: all ,2s ease-in;
+}
+
+.circle-icon{
+    width: 192px;
+    height: 192px;
+    background-color: var(--pr-color);
+    border-radius: 50%;
+
+    transition: all ,1s ease-in;
+}
+
+.card-layanan h3{
+    color: var(--pr-color);
+    font-size: 40px; 
+    font-weight: 700;
+
+    transition: all ,1s ease-in;
+}
+
+.card-layanan p{
+    color: #000;
+    font-size: 26px;
+    font-weight: 100;
+
+    transition: all ,1s ease-in;
+}
+
+/* Hover */
+.card-layanan:hover{
+    width: 560px;
+    height: 560px;
+    border-radius: 20px;
+    background: linear-gradient(150deg, var(--pr-color), 	#808080);
+    padding: 40px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0,05);
+
+    transition: all ,1s ease-in;
+}
+
+.card-layanan:hover .circle-icon{
+    background-color: #fff;
+    transition: all ,1s ease-in;
+}
+
+.card-layanan:hover h3{
+    color: #fff;
+    font-size: 40px; 
+    font-weight: 700;
+
+    transition: all ,1s ease-in;
+}
+
+.card-layanan:hover p{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 100;
+
+    transition: all ,1s ease-in;
+}
+
+/* Section Gallery */
+#gallery{
+    background-image: url(../assets/img/bg2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card{
+    height: auto;
+    border: none;
+}
+
+.card-body h4{
+    color: var(--pr-color);
+    font-weight: 700;
+    font-size: 32;
+}
+
+.card:hover{
+    background-color: var(--pr-color);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0,25);
+
+    transition: all ,1s ease-in-out;
+}
+
+.card:hover .card-body h4{
+    color:#fff;
+    font-weight: 700;
+    font-size: 32;
+
+    transition: all ,1s ease-in-out;
+}
+
+#location{
+    margin-top: none;
+    margin-bottom: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact{
+    background-image: url(../assets/img/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact .container{
+    padding: 148px 0 148px 0;
+}
+
+#contact h3 {
+    color: #ffffff;
+    font-family: 'Crimson Pro';
+    font-weight: Medium;
+    font-size: 64px;
+    opacity: 1;
+}
+
+.kontak h6{
+    color: #ffffff;
+  font-family:'Crimson Pro';
+  font-weight: Medium;
+  font-size: 32px;
+  opacity: 1;
+  margin: 19px 0 18px 0;
+}
+
+.kontak a{
+    color: #ffffff;
+    font-family: 'Crimson Pro';
+    font-weight: Medium;
+    font-size: 24px;
+    opacity: 1;
+    text-decoration: none;
+    margin-left: 18px;
+    display: inline-block;
+}
+
+.linkunicorn{
+    color: #ffffff;
+    font-family: 'Crimson Pro';
+    font-weight: Medium;
+    font-size: 32px;
+    opacity: 1;
+}
+
+.card-contact{
+    width: 593px;
+    height: 480px;
+    background: rgba(255,255,255,1);
+    padding: 1px 48px;
+    border-radius: 20px;
+}
+
+.card-contact h2{
+    color: #051950;
+    font-family: 'Crimson Pro';
+    font-weight: Medium;
+    font-size: 56px;
+    opacity: 1;
+}
+
+.form-control{
+    background: rgba(196,196,196,1);
+    width: 100%;
+    height: 91px; 
+    border-radius: 0;
+}
+
+.form-floating label{
+    color: #595858;
+    font-family: 'Crimson Pro';
+    font-weight: Medium;
+    font-size: 24px;
+    opacity: 1;
+}
+
+.button-kontak{
+    background: rgba(4,24,79,1);
+    width: 100%;
+    height: 91px;
+    border: none;
+}
+
+.button-kontak{
+    color: #ffffff;
+    font-family: Crimson Pro;
+    font-weight: Medium;
+    font-size: 40px;
+    opacity: 1;
+}
+
+footer{
+    width: 100%;
+    height: 270px;
+    background: #000000;
+}
+
+.copyright{
+    bottom: 1%;
+    color: #fff;
+    font-family: 'SeoulNamsan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+footer a{
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Profile */
+table,
+td,
+th {
+  /* border: 1px solid #fff; */
+  color: #fff;
+  vertical-align: top;
+  text-align: left;
+}
+
+table th.dots {
+  text-align: center;
+  width: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  height: 50px;
+}
+
+.sec {
+  position: relative;
+  padding: 100px;
+  background: #322b41;
+}
+
+.sec h2 {
+  text-align: center;
+  font-size: 3.5em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.sec p,
+.sec ul {
+  font-size: 1em;
+  color: #fff;
+}
